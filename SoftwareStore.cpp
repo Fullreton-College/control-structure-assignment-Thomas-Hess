@@ -15,9 +15,10 @@ int main() {
     if (units >= 10 && units <= 19) {
         discount = 20;
     }
-    else if (units >= 20 && units <= 49) {
+    else if (units >= 20 && units <= 40) {
         discount = 30;
     }
+    // i guess whoever wants between 41 and 49 units will get squat
     else if (units >= 50 && units <= 99) {
         discount = 40;
     }
